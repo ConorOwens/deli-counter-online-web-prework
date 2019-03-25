@@ -16,7 +16,9 @@ end
 def take_a_number(katz_deli, customer)
   if katz_deli.size == 0
     katz_deli << customer
+    puts "Welcome, #{customer}. You are number XXX in line."
   else
     katz_deli << customer
+    puts "Welcome, #{customer}. You are number XXX in line."
   end
 end
