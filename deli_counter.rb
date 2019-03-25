@@ -13,7 +13,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(customer)
+def take_a_number(katz_deli, customer)
   if katz_deli.size == 0
     katz_deli << customer
   else
