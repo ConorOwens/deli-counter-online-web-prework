@@ -14,6 +14,7 @@ def lineup(array)
 def line(array)
   if array.size == 0
     puts "The line is currently empty."
-  else lineup(array)
+  else 
+    lineup(array)
   end
 end
