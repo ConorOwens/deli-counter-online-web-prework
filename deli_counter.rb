@@ -3,7 +3,9 @@
 def lineup(customers)
    array = []
    customers.each_with_index do |x, i|
-     
+     y = "The customer is #{x} his place is #{i + 1}."
+   end
+   
      
   
 def line(array)
