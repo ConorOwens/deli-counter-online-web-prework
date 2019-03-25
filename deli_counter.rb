@@ -3,7 +3,7 @@
 def lineup(customers)
    array = []
    customers.each_with_index do |x, i|
-     y = "The customer is #{x} his place is #{i + 1}."
+     y = "The line is currently: #{i + 1}. #{x) ""
      array << y
    end
    return array
@@ -14,6 +14,6 @@ def lineup(customers)
 def line(array)
   if array.size == 0
     puts "The line is currently empty."
+  else lineup(array)
   end
-  
 end
