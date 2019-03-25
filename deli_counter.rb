@@ -3,7 +3,7 @@
 def lineup(customers)
    array = []
    customers.each_with_index do |x, i|
-     y = "The line is currently: #{i + 1}. #{x) "
+     y = "The line is currently: #{i + 1}. #{x)"
      array << y
    end
    return array
