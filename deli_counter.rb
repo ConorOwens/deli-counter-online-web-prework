@@ -1,5 +1,3 @@
-# Write your code here.
-
 def lineup(array)
    customers = []
    array.each_with_index do |x, i|
