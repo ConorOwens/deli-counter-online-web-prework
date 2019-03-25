@@ -18,4 +18,5 @@ def take_a_number(customer)
     katz_deli << customer
   else
     katz_deli << customer
+  end
 end
