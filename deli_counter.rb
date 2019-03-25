@@ -7,7 +7,6 @@ def line(array)
       y = "#{i +1}. #{x}"
       lineup << y
     end
-    puts "The line is currently:" 
-    puts lineup
+    puts "The line is currently: #{lineup}"
   end
 end
