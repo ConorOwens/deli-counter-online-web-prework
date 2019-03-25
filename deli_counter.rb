@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  if array.size == 0
+  if katz_deli.size == 0
     puts "The line is currently empty."
   else 
     lineup = []
@@ -14,5 +14,8 @@ def line(katz_deli)
 end
 
 def take_a_number(customer)
-  katz_deli << customer
+  if katz_deli.size == 0
+    katz_deli << customer
+  else
+    katz_deli << customer
 end
